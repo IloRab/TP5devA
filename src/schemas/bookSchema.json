@@ -1,0 +1,12 @@
+
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "author": { "type": "string" },
+    "description": { "type": "string" },
+    "format": { "type": "string", "enum": ["poche", "manga", "audio"] }
+  },
+  "required": ["title", "author"],
+  "additionalProperties": false
+}
